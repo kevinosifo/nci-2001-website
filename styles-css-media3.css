@@ -1,0 +1,65 @@
+/*
+
+*/
+body{
+	
+}
+
+#wrapper{
+	  width: 90;
+
+}
+
+.header{
+    padding: 20px;
+    background-color: #B2F3EE;
+	
+}
+
+h1{
+	text-align:center;
+	
+}
+
+
+.sidebar{
+	width: 20%;
+	float: left;
+	background-color: #61ADA7;
+	height: 500px;
+
+}
+
+.main{
+	width: 80%;
+	float: right;
+	height: 500px;
+	background-image: url("image/background1.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	
+	
+}
+img{
+	float: left;
+	margin: 10px;
+}
+
+@media screen and (max-width: 980px} {
+	#wrapper {
+		width: 95%;
+	}
+	.main {
+		width: 65%;
+		
+	}
+	.sidebar {
+		width: 30%;
+		
+	}
+	
+}
+	
+
+	  
+	  
